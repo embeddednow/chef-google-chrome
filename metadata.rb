@@ -1,7 +1,9 @@
 name 'google-chrome'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Embedded Now, Inc'
+maintainer_email 'hello@embeddednow.com'
 license 'all_rights'
 description 'Installs/Configures google-chrome'
 long_description 'Installs/Configures google-chrome'
 version '0.1.0'
+
+depends "apt"
