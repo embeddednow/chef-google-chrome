@@ -10,9 +10,9 @@ apt_repository 'google-chrome' do
   arch         'amd64'
   distribution 'stable'
   components   %w(main)
-  action :nothing
-end.run_action(:add)
+  action       :add
+end
 
 package "google-chrome-#{node['chrome']['track']}" do
-  action :nothing
-end.run_action(:install)
+  action :install
+end
